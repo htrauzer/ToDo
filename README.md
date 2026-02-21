@@ -18,7 +18,7 @@ The application in use, showing a mix of active and completed tasks. Notice the 
 
 ### ✍️ Inline Editing: Direct Manipulation
 A view of the "Active" filter with a task in Edit Mode. Triggered by a double-click, the editView logic swaps the label for a text input, allowing for immediate updates without leaving the page.
-![Editing](screenshots/photo_3.jpg)
+![Editing](screenshots/photo_2.jpg)
 
 ## 🛠️ Core Features
 
