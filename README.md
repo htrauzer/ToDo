@@ -1,4 +1,4 @@
-# 📝 MiniFramework TodoMVC
+# 📝 Todo with MiniFramework
 
 A Todo application built using a custom-engineered JavaScript framework. This project was created to explore the mechanics of Virtual DOM reconciliation, component lifecycles, and client-side routing without relying on external heavy-weight libraries.
 
