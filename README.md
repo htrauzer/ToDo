@@ -2,22 +2,20 @@
 
 A Todo application built using a custom-engineered JavaScript framework. This project was created to explore the mechanics of Virtual DOM reconciliation, component lifecycles, and client-side routing without relying on external heavy-weight libraries.
 
-## 🚀 Technical Highlights
+## 🛠️ Core Features
 
-Custom Virtual DOM: Implements a lightweight createElement engine.
-Diffing Algorithm: A recursive reconciliation process that updates only the necessary parts of the real DOM to ensure optimal performance.
-State Management: Reactive component architecture where setState triggers automatic UI re-renders.
-Hash-based Router: A custom-built router that handles application state via URL fragments (#/active, #/completed).
-Persistence: LocalStorage integration to keep your tasks safe across sessions.
+* **Custom VDOM:** Lightweight createElement engine for fast UI updates.
+* **Smart Diffing:** Recursive reconciliation updates only changed DOM nodes.
+* **Reactive State:** Component-based architecture with automatic setState re-renders.
+* **Hash Router:** Built-in routing for Active and Completed task views.
+* **Auto-Save:** Seamless LocalStorage integration for data persistence.
 
-## 🛠 Project Structure
-> lib/dom.js:             The "Core" –    Contains the MiniFramework engine, including the diff logic and Component base class.
-> main.jsx:               The "Logic" –     Contains the TodoApp and TodoItem components.
-> index.html:             The "Entry" –   The skeleton where the framework injects the application.
-> scripts/babel.min.js:   The "Translator" – Compiles JSX in the browser for development flexibility.
+## 📂 File Guide
 
-
-
+* `lib/dom.js` **– The Core:** Framework engine, VDOM diffing, and Base Component.
+* `main.jsx`**– The Logic:** Main TodoApp and TodoItem application code.
+* `index.html` **– The Entry:** HTML skeleton and framework injection point.
+* `babel.min.js` **– The Translator:** On-the-fly JSX compilation in the browser.
 
 ## 🚦 Getting Started
 
