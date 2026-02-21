@@ -2,6 +2,24 @@
 
 A Todo application built using a custom-engineered JavaScript framework. This project was created to explore the mechanics of Virtual DOM reconciliation, component lifecycles, and client-side routing without relying on external heavy-weight libraries.
 
+## 🖼️ Project Walkthrough
+
+### 🏠 Home View: The Clean Slate
+The landing state of the application. A distraction-free entry point featuring the main input field.
+![Home Page](screenshots/photo_0.jpg)
+
+---
+
+### 💬 Task Management: Progress in Action
+The application in use, showing a mix of active and completed tasks. Notice the custom SVG checkmarks and the "Items left" counter, which updates in real-time as the Diffing Algorithm patches the DOM.
+![Tasks](screenshots/photo_1.jpg)
+
+---
+
+### ✍️ Inline Editing: Direct Manipulation
+A view of the "Active" filter with a task in Edit Mode. Triggered by a double-click, the editView logic swaps the label for a text input, allowing for immediate updates without leaving the page.
+![Editing](screenshots/photo_3.jpg)
+
 ## 🛠️ Core Features
 
 * **Custom VDOM:** Lightweight createElement engine for fast UI updates.
